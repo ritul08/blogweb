@@ -8,9 +8,10 @@ const App = () => {
   return (
     <div className='container'>
       <Routes>
-        <Route path='/' exact component={<Home/>} />
-        <Route path='/blog/:id' component={<Blog/>} />
+        <Route path='/' exact element={<Home/>} />
+        <Route path='/blog/:id' element={<Blog />} />
       </Routes>
+     
     </div>
   );
 };
