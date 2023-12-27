@@ -7,7 +7,7 @@ const Home = () => {
       {/*Page Header*/}
       <Header/>
       {/*Search Bar*/}
-      <SearchBar/>
+      {/* <SearchBar/> */}
     </div>
   )
 }
