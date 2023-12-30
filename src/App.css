@@ -22,3 +22,16 @@ input {
   margin: 0 auto;
   padding: 1rem 0;
 }
+
+nav{
+  margin:0;
+  width:100%;
+  height:50px;
+  background-color: blue;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  color:aliceblue;
+  text-decoration:none;
+  
+}

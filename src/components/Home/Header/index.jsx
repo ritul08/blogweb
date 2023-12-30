@@ -3,8 +3,9 @@ import './styles.css';
 
 const Header = () => {
     return(
+        <>
         <div className='home-header'>
-            <h2>Inc. This Morning</h2>
+            <h2>Hello Readers!!</h2>
             <h1>
             <span>“</span> Blog <span>”</span>
             </h1>
@@ -13,9 +14,12 @@ const Header = () => {
             daily updates.
             </p>
         </div>
+        </>
     ) 
        
 
     };
 
 export default Header;
+
+
